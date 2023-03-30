@@ -1,8 +1,7 @@
-const StartStop = (start, stop, handleClock) => {
+const StartStop = (start, stop,) => {
   return (
     <div className="flex justify-between">
       <button
-        onClick={ handleClock()}
         className="text-2xl h-24 w-24 border-green-600 border-4 rounded-xl hover:border-green-800"
       >
         START
